@@ -14,7 +14,6 @@ export default function Header() {
       <nav>
         <div className="container">
         <div className="navbar">
-          <img src={img} alt="" />
           <ul className={list ? "navbar__list" : "out"}>
             <li className="fa-x">
               <button className="remove__btn"  onClick={()=>{setList(false); console.log(1)}}>
@@ -31,10 +30,10 @@ export default function Header() {
               <a href="#">Connect a wallet</a>
             </li>
             <li>
-              <button className="navbar__lsit__btn">
+              {/* <button className="navbar__lsit__btn">
               <FaUser className="faUser" />
               Sign Up
-              </button>
+              </button> */}
             </li>
           </ul>
           <RxHamburgerMenu className="burger" onClick={()=>setList(true)}/>

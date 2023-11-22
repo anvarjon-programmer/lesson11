@@ -1,15 +1,16 @@
 import "./App.css";
 import Header from "./components/Header";
-import Hearos from "./components/Hearos"
-import Cards  from "./components/Cards";
+import Moodal from "./lesson-2/Moodal";
+import Render from "./render/Render";
+
 
 
 function App() {
     return (
     <div className="app">
       <Header/>
-      <Hearos/>
-      <Cards/>
+      <Moodal/>
+      <Render/>
     </div>
   )
 }
